@@ -1,0 +1,54 @@
+.box1{
+   
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 150px;
+    animation: moveBox1 4s linear forwards;
+    background-color: rgba(210, 180, 140, 0.7);/*this will only translucent the box only*/
+    color: white;
+    font-size: larger;
+   
+}
+
+@keyframes moveBox1{
+    0%{transform: translateX(-120%);}
+    20%{transform: translateX(0%);}
+    80%{transform: translateX(0%);}
+    100%{transform: translateX(120%);}
+}
+
+.box2{
+
+    background-color: rgba(165, 42, 42, 0.5);
+    text-align: center;
+    padding: 50px;
+    z-index: -1;
+    border-radius: 20px;
+    animation: moveBox2 4s linear forwards;
+    margin-top: 20px;
+    color: white;
+    font-size: larger;
+}
+
+@keyframes moveBox2{
+    0%{transform: translateX(120%);}
+    20%{transform: translateX(0%);}
+    80%{transform: translateX(0%);}
+    100%{transform: translateX(-120%);}
+}
+
+body{
+    background-image: url(green_plant1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+    transform: scale(0.5);
+    position: absolute;
+    top: -8%;
+    left: -15%;
+}
+
