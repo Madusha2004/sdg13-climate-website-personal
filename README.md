@@ -36,8 +36,3 @@ The site structure is established, but several content sections are currently be
 
 
 
-
-
-├── style1.css       # Page-specific layout styles
-├── welcome.js       # Multi-language greeting logic
-└── assets/          # Logos (best_logo.png) and UI icons
